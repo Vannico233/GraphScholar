@@ -1,9 +1,9 @@
 from typing import Optional
 
 
-DEFAULT_BASE_URL = "https://token-plan-cn.xiaomimimo.com/v1"
-DEFAULT_API_KEY = "tp-c1xf439dt3j37rc51q3sr011s563jbdohy4ooan98kz3z9a1"
-DEFAULT_MODEL_ID = "mimo-v2.5-pro"
+DEFAULT_BASE_URL = ""
+DEFAULT_API_KEY = ""
+DEFAULT_MODEL_ID = ""
 
 
 class LLMClient:
