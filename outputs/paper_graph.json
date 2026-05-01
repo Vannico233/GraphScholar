@@ -1,0 +1,673 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "paper",
+      "title": "All in One: Multi-Task Prompting for Graph Neural Networks",
+      "file_name": "01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "category": "Graph Pretraining",
+      "abstract": "Recently, “pre-training and fine-tuning” has been adopted as a stan- dard workflow for many graph tasks since it can take general graph knowledge to relieve the lack of graph annotations from each ap- plication. However, graph tasks with node level, edge level, and graph level are far diversified, making the pre-training pretext often incompatible with these multiple tasks. This gap may even cause a “negative transfer” to the specific application, leading to poor results. Inspired by the prompt learning in natural language processing (NLP), which has presented significant effectiveness in leveraging prior knowledge for various NLP tasks, we study the prompting topic for graphs with the motivation of filling the gap between pre- trained models and various graph tasks. In this paper, we propose a novel multi-task prompting method for graph models. Specifically, we first unify the format of graph prompts and language prompts with the prompt token, token structure, and inserting pattern. In this way, the prompting idea from NLP can be seamlessly intro- duced to the graph area. Then, to further narrow the gap between various graph tasks and state-of-the-art pre-training strategies, we further study the task space of various graph applications and re- formulate downstream problems to the graph-level task. Afterward, we introduce meta-learning to efficiently learn a better initializa- tion for the multi-task prompt of graphs so that our prompting framework can be more reliable and general for different tasks. We conduct extensive experiments, results from which demonstrate the superiority of our method. CCS CONCEPTS • Networks →Online social networks; • Computing method- ologies →Knowledge representation and reasoning. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than the author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. KDD ’23, August 6–10, 2023, Long Beach, CA, USA © 2023 Copyright held by the owner/author(s). Publication rights licensed to ACM. ACM ISBN 979-8-4007-0103-0/23/08...$15.00 https://doi.org/10.1145/3580305.3599256 KEYWORDS pre-training; prompt tuning; graph neural networks ACM Reference Format: Xiangguo Sun, Hong Cheng, Jia Li, Bo Liu, and Jihong Guan. 2023. All in One: Multi-Task Prompting for Graph Neural Networks. In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’23), August 6–10, 2023, Long Beach, CA, USA. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3580305.3599256",
+      "tags": [
+        "GNN",
+        "Graph Pretraining",
+        "Graph Prompting Learning"
+      ],
+      "id": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Pretraining",
+      "id": "topic::Graph Pretraining"
+    },
+    {
+      "node_type": "topic",
+      "name": "GNN",
+      "id": "topic::GNN"
+    },
+    {
+      "node_type": "method",
+      "name": "Graph Pretraining",
+      "id": "method::Graph Pretraining"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Prompting Learning",
+      "id": "topic::Graph Prompting Learning"
+    },
+    {
+      "node_type": "method",
+      "name": "Graph Prompting",
+      "id": "method::Graph Prompting"
+    },
+    {
+      "node_type": "paper",
+      "title": "GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training",
+      "file_name": "02GCC.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Graph representation learning has emerged as a powerful technique for addressing real-world problems. Various downstream graph learning tasks have benefited from its recent developments, such as node classification, similarity search, and graph classification. However, prior arts on graph representation learning focus on do- main specific problems and train a dedicated model for each graph dataset, which is usually non-transferable to out-of-domain data. In- spired by the recent advances in pre-training from natural language processing and computer vision, we design Graph Contrastive Cod- ing (GCC)1—a self-supervised graph neural network pre-training framework—to capture the universal network topological proper- ties across multiple networks. We design GCC’s pre-training task as subgraph instance discrimination in and across networks and leverage contrastive learning to empower graph neural networks to learn the intrinsic and transferable structural representations. We conduct extensive experiments on three graph learning tasks and ten graph datasets. The results show that GCC pre-trained on a collection of diverse datasets can achieve competitive or better performance to its task-specific and trained-from-scratch counter- parts. This suggests that the pre-training and fine-tuning paradigm presents great potential for graph representation learning. CCS CONCEPTS • Information systems →Data mining; Social networks; • Computing methodologies →Unsupervised learning; Neu- ral networks; Learning latent representations. ∗Jie Tang is the corresponding author. 1The code is available at https://github.com/THUDM/GCC. Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. KDD ’20, August 23–27, 2020, Virtual Event, CA, USA © 2020 Association for Computing Machinery. ACM ISBN 978-1-4503-7998-4/20/08...$15.00 https://doi.org/10.1145/3394486.3403168 KEYWORDS graph representation learning; graph neural networks; graph pre-training; self-supervised learning; contrastive learning ACM Reference Format: Jiezhong Qiu, Qibin Chen, Yuxiao Dong, Jing Zhang, Hongxia Yang, Ming Ding, Kuansan Wang, and Jie Tang. 2020. GCC: Graph Contrastive Coding for Graph Neural Network Pre-Training. In Proceedings of the 26th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD ’20), August 23–27, 2020, Virtual Event, CA, USA. ACM, New York, NY, USA, 11 pages. https://doi.org/10.1145/3394486.3403168",
+      "tags": [
+        "GNN",
+        "Graph Contrastive Learning",
+        "Graph Self-Supervised Learning",
+        "Graph Representation Learning",
+        "Graph Pretraining"
+      ],
+      "id": "paper::02GCC.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Contrastive Learning",
+      "id": "topic::Graph Contrastive Learning"
+    },
+    {
+      "node_type": "method",
+      "name": "Contrastive Learning",
+      "id": "method::Contrastive Learning"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Self-Supervised Learning",
+      "id": "topic::Graph Self-Supervised Learning"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Representation Learning",
+      "id": "topic::Graph Representation Learning"
+    },
+    {
+      "node_type": "paper",
+      "title": "HOWPOWERFUL AREGRAPHNEURALNETWORKS?",
+      "file_name": "03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf",
+      "category": "Graph Representation Learning",
+      "abstract": "Graph Neural Networks (GNNs) are an effective framework for representation learning of graphs. GNNs follow a neighborhood aggregation scheme, where the representation vector of a node is computed by recursively aggregating and trans- forming representation vectors of its neighboring nodes. Many GNN variants have been proposed and have achieved state-of-the-art results on both node and graph classiﬁcation tasks. However, despite GNNs revolutionizing graph representation learning, there is limited understanding of their representational properties and limitations. Here, we present a theoretical framework for analyzing the expressive power of GNNs to capture different graph structures. Our results characterize the discriminative power of popular GNN variants, such as Graph Convolutional Networks and GraphSAGE, and show that they cannot learn to distinguish certain simple graph structures. We then develop a simple architecture that is provably the most expressive among the class of GNNs and is as powerful as the Weisfeiler- Lehman graph isomorphism test. We empirically validate our theoretical ﬁndings on a number of graph classiﬁcation benchmarks, and demonstrate that our model achieves state-of-the-art performance.",
+      "tags": [
+        "GNN",
+        "GCN",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "GCN",
+      "id": "topic::GCN"
+    },
+    {
+      "node_type": "paper",
+      "title": "Heterogeneous Graph Masked Autoencoders",
+      "file_name": "04Heterogeneous Graph Masked Autoencoders.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Generative self-supervised learning (SSL), especially masked autoencoders, has become one of the most exciting learning paradigms and has shown great potential in handling graph data. However, real-world graphs are always heterogeneous, which poses three critical challenges that existing methods ignore: 1) how to capture complex graph structure? 2) how to incorporate various node attributes? and 3) how to encode different node positions? In light of this, we study the problem of generative SSL on heterogeneous graphs and propose HGMAE, a novel heterogeneous graph masked autoencoder model to address these challenges. HGMAE captures comprehensive graph information via two innovative masking techniques and three unique training strategies. In particular, we first develop metapath masking and adaptive attribute masking with dynamic mask rate to enable effective and stable learning on heterogeneous graphs. We then design several training strategies including metapath-based edge reconstruction to adopt complex structural information, target attribute restoration to incorporate various node attributes, and positional feature prediction to encode node positional information. Extensive experiments demonstrate that HGMAE outperforms both contrastive and generative state-of-the-art baselines on several tasks across multiple datasets. Codes are available at https://github.com/meettyj/HGMAE.",
+      "tags": [
+        "Graph Contrastive Learning",
+        "Graph Self-Supervised Learning",
+        "Heterogeneous Graph"
+      ],
+      "id": "paper::04Heterogeneous Graph Masked Autoencoders.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "Heterogeneous Graph",
+      "id": "topic::Heterogeneous Graph"
+    },
+    {
+      "node_type": "paper",
+      "title": "A Survey of Graph Retrieval-Augmented Generationfor Customized Large Language Models",
+      "file_name": "A Survey of Graph Retrieval-Augmented Generation.pdf",
+      "category": "GraphRAG",
+      "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in a wide range of tasks, yet their application to specialized domains remains challenging due to the need for deep expertise. Retrieval-augmented generation (RAG) has emerged as a promising solution to customize LLMs for professional fields by seamlessly integrating external knowledge bases, enabling real-time access to domain-specific expertise during inference. Despite its potential, traditional RAG systems, based on flat text retrieval, face three critical challenges: (i) complex query understanding in professional contexts, (ii) difficulties in knowledge integration across distributed sources, and (iii) system efficiency bottlenecks at scale. This survey presents a systematic analysis of Graph-based Retrieval- Augmented Generation (GraphRAG), a new paradigm that revolutionizes domain-specific LLM applications. GraphRAG addresses traditional RAG limitations through three key in- novations: (i) graph-structured knowledge representation that explicitly captures entity relationships and domain hierarchies, (ii) efficient graph-based retrieval techniques that enable context- preserving knowledge retrieval with multihop reasoning ability, and (iii) structure-aware knowledge integration algorithms that leverage retrieved knowledge for accurate and logical coherent generation of LLMs. In this survey, we systematically analyze the technical foundations of GraphRAG and examine current implementations across various professional domains, identifying key technical challenges and promising research directions. All the related resources of GraphRAG, including research papers, open-source data, and projects, are collected for the community in https://github.com/DEEP-PolyU/Awesome-GraphRAG. Index Terms—Retrieval-Augmented Generation, Knowledge Graphs, Graph-based Retrieval-Augmented Generation",
+      "tags": [
+        "GraphRAG",
+        "Knowledge Graph"
+      ],
+      "id": "paper::A Survey of Graph Retrieval-Augmented Generation.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "GraphRAG",
+      "id": "topic::GraphRAG"
+    },
+    {
+      "node_type": "topic",
+      "name": "Knowledge Graph",
+      "id": "topic::Knowledge Graph"
+    },
+    {
+      "node_type": "method",
+      "name": "Knowledge-Graph Retrieval",
+      "id": "method::Knowledge-Graph Retrieval"
+    },
+    {
+      "node_type": "paper",
+      "title": "LARGESCALE REPRESENTATION LEARNING ON GRAPHS VIABOOTSTRAPPING",
+      "file_name": "BGRL_v2.pdf",
+      "category": "Graph Representation Learning",
+      "abstract": "Self-supervised learning provides a promising path towards eliminating the need for costly label information in representation learning on graphs. However, to achieve state-of-the-art performance, methods often need large numbers of neg- ative examples and rely on complex augmentations. This can be prohibitively expensive, especially for large graphs. To address these challenges, we introduce Bootstrapped Graph Latents (BGRL) - a graph representation learning method that learns by predicting alternative augmentations of the input. BGRL uses only simple augmentations and alleviates the need for contrasting with negative examples, and is thus scalable by design. BGRL outperforms or matches prior methods on sev- eral established benchmarks, while achieving a 2-10x reduction in memory costs. Furthermore, we show that BGRL can be scaled up to extremely large graphs with hundreds of millions of nodes in the semi-supervised regime - achieving state-of- the-art performance and improving over supervised baselines where representations are shaped only through label information. In particular, our solution centered on BGRL constituted one of the winning entries to the Open Graph Benchmark - Large Scale Challenge at KDD Cup 2021, on a graph orders of magnitudes larger than all previously available benchmarks, thus demonstrating the scalability and effectiveness of our approach.",
+      "tags": [
+        "Graph Self-Supervised Learning",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::BGRL_v2.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Deep Graph Contrastive Representation Learning",
+      "file_name": "Deep Graph Contrastivew Representation Learning(Grace.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Graph representation learning nowadays becomes fundamental in analyzing graph- structured data. Inspired by recent success of contrastive methods, in this paper, we propose a novel framework for unsupervised graph representation learning by leveraging a contrastive objective at the node level. Speciﬁcally, we generate two graph views by corruption and learn node representations by maximizing the agreement of node representations in these two views. To provide diverse node contexts for the contrastive objective, we propose a hybrid scheme for generating graph views on both structure and attribute levels. Besides, we provide theoretical justiﬁcation behind our motivation from two perspectives, mutual information and the classical triplet loss. We perform empirical experiments on both transductive and inductive learning tasks using a variety of real-world datasets. Experimental ex- periments demonstrate that despite its simplicity, our proposed method consistently outperforms existing state-of-the-art methods by large margins. Moreover, our unsupervised method even surpasses its supervised counterparts on transductive tasks, demonstrating its great potential in real-world applications.",
+      "tags": [
+        "Graph Contrastive Learning",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::Deep Graph Contrastivew Representation Learning(Grace.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "DEEPGRAPHINFOMAX",
+      "file_name": "Deep Graph Infomax(DGI.pdf",
+      "category": "Graph Representation Learning",
+      "abstract": "We present Deep Graph Infomax (DGI), a general approach for learning node representations within graph-structured data in an unsupervised manner. DGI re- lies on maximizing mutual information between patch representations and corre- sponding high-level summaries of graphs—both derived using established graph convolutional network architectures. The learnt patch representations summarize subgraphs centered around nodes of interest, and can thus be reused for down- stream node-wise learning tasks. In contrast to most prior approaches to unsuper- vised learning with GCNs, DGI does not rely on random walk objectives, and is readily applicable to both transductive and inductive learning setups. We demon- strate competitive performance on a variety of node classiﬁcation benchmarks, which at times even exceeds the performance of supervised learning.",
+      "tags": [
+        "GCN"
+      ],
+      "id": "paper::Deep Graph Infomax(DGI.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "From Local to Global: A GraphRAG Approach to Query-Focused Summarization",
+      "file_name": "From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf",
+      "category": "GraphRAG",
+      "abstract": "The use of retrieval-augmented generation (RAG) to retrieve relevant informa- tion from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections. However, RAG fails on global questions directed at an entire text corpus, such as “What are the main themes in the dataset?”, since this is inherently a query- focused summarization (QFS) task, rather than an explicit retrieval task. Prior QFS methods, meanwhile, do not scale to the quantities of text indexed by typ- ical RAG systems. To combine the strengths of these contrasting methods, we propose GraphRAG, a graph-based approach to question answering over private text corpora that scales with both the generality of user questions and the quantity of source text. Our approach uses an LLM to build a graph index in two stages: first, to derive an entity knowledge graph from the source documents, then to pre- generate community summaries for all groups of closely related entities. Given a question, each community summary is used to generate a partial response, before all partial responses are again summarized in a final response to the user. For a class of global sensemaking questions over datasets in the 1 million token range, we show that GraphRAG leads to substantial improvements over a conventional RAG baseline for both the comprehensiveness and diversity of generated answers.",
+      "tags": [
+        "GraphRAG",
+        "Knowledge Graph"
+      ],
+      "id": "paper::From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "FUG: Feature-Universal Graph Contrastive Pre-training for Graphs with Diverse Node Features",
+      "file_name": "FUG.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Graph Neural Networks (GNNs), known for their effective graph encoding, are extensively used across various fields. Graph self-supervised pre-training, which trains GNN encoders without manual labels to generate high-quality graph rep- resentations, has garnered widespread attention. However, due to the inherent complex characteristics in graphs, GNNs encoders pre-trained on one dataset struggle to directly adapt to others that have different node feature shapes. This typically necessitates either model rebuilding or data alignment. The former results in non-transferability as each dataset need to rebuild a new model, while the latter brings serious knowledge loss since it forces features into a uniform shape by preprocessing such as Principal Component Analysis (PCA). To address this chal- lenge, we propose a new Feature-Universal Graph contrastive pre-training strategy (FUG) that naturally avoids the need for model rebuilding and data reshaping. Specifically, inspired by discussions in existing work on the relationship between contrastive Learning and PCA, we conducted a theoretical analysis and discovered that PCA’s optimization objective is a special case of that in contrastive Learning. We designed an encoder with contrastive constraints to emulate PCA’s generation of basis transformation matrix, which is utilized to losslessly adapt features in different datasets. Furthermore, we introduced a global uniformity constraint to replace negative sampling, reducing the time complexity from O(n2) to O(n), and by explicitly defining positive samples, FUG avoids the substantial memory requirements of data augmentation. In cross domain experiments, FUG has a performance close to the re-trained new models. The source code is available at: https://github.com/hedongxiao-tju/FUG.",
+      "tags": [
+        "GNN",
+        "Graph Contrastive Learning",
+        "Graph Self-Supervised Learning",
+        "Graph Pretraining"
+      ],
+      "id": "paper::FUG.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "RESEARCH-ARTICLE Graph Contrastive Learning with Adaptive Augmentation",
+      "file_name": "GCA.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Recently, contrastive learning (CL) has emerged as a successful method for unsupervised graph representation learning. Most graph CL methods first perform stochastic augmentation on the input graph to obtain two graph views and maximize the agreement of representations in the two views. Despite the prosperous devel- opment of graph CL methods, the design of graph augmentation schemes—a crucial component in CL—remains rarely explored. We argue that the data augmentation schemes should preserve intrin- sic structures and attributes of graphs, which will force the model to learn representations that are insensitive to perturbation on unimportant nodes and edges. However, most existing methods adopt uniform data augmentation schemes, like uniformly drop- ping edges and uniformly shuffling features, leading to suboptimal performance. In this paper, we propose a novel graph contrastive representation learning method with adaptive augmentation that in- corporates various priors for topological and semantic aspects of the graph. Specifically, on the topology level, we design augmentation schemes based on node centrality measures to highlight important connective structures. On the node attribute level, we corrupt node features by adding more noise to unimportant node features, to en- force the model to recognize underlying semantic information. We perform extensive experiments of node classification on a variety of real-world datasets. Experimental results demonstrate that our proposed method consistently outperforms existing state-of-the-art baselines and even surpasses some supervised counterparts, which validates the effectiveness of the proposed contrastive framework with adaptive augmentation. CCS CONCEPTS • Computing methodologies →Unsupervised learning; Neu- ral networks; Learning latent representations. KEYWORDS Contrastive learning, graph representation learning, unsupervised learning, self-supervised learning ∗The first two authors made equal contribution to this work. †To whom correspondence should be addressed. This paper is published under the Creative Commons Attribution 4.0 International (CC-BY 4.0) license. Authors reserve their rights to disseminate the work on their personal and corporate Web sites with the appropriate attribution. WWW ’21, April 19–23, 2021, Ljubljana, Slovenia © 2021 IW3C2 (International World Wide Web Conference Committee), published under Creative Commons CC-BY 4.0 License. ACM ISBN 978-1-4503-8312-7/21/04. https://doi.org/10.1145/3442381.3449802 ACM Reference Format: Yanqiao Zhu, Yichen Xu, Feng Yu, Qiang Liu, Shu Wu, and Liang Wang. 2021. Graph Contrastive Learning with Adaptive Augmentation. In Proceedings of the Web Conference 2021 (WWW ’21), April 19–23, 2021, Ljubljana, Slovenia. ACM, New York, NY, USA, 12 pages. https://doi.org/10.1145/3442381.3449802",
+      "tags": [
+        "Graph Contrastive Learning",
+        "Graph Self-Supervised Learning",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::GCA.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "SEMISUPERVISEDCLASSIFICATION WITH GRAPHCONVOLUTIONALNETWORKS",
+      "file_name": "GCN.pdf",
+      "category": "Graph Representation Learning",
+      "abstract": "We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efﬁcient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional archi- tecture via a localized ﬁrst-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a signiﬁcant margin.",
+      "tags": [
+        "Knowledge Graph"
+      ],
+      "id": "paper::GCN.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Unified Graph Augmentations for Generalized Contrastive Learning on Graphs",
+      "file_name": "GOUDA.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "In real-world scenarios, networks (graphs) and their tasks possess unique character- istics, requiring the development of a versatile graph augmentation (GA) to meet the varied demands of network analysis. Unfortunately, most Graph Contrastive Learning (GCL) frameworks are hampered by the specificity, complexity, and in- completeness of their GA techniques. Firstly, GAs designed for specific scenarios may compromise the universality of models if mishandled. Secondly, the process of identifying and generating optimal augmentations generally involves substantial computational overhead. Thirdly, the effectiveness of the GCL, even the learnable ones, is constrained by the finite selection of GAs available. To overcome the above limitations, this paper introduces a novel unified GA module dubbed UGA after reinterpreting the mechanism of GAs in GCLs from a message-passing perspective. Theoretically, this module is capable of unifying any explicit GAs, including node, edge, attribute, and subgraph augmentations. Based on the proposed UGA, a novel generalized GCL framework dubbed Graph cOntrastive UnifieD Augmentations (GOUDA) is proposed. It seamlessly integrates widely adopted contrastive losses and an introduced independence loss to fulfill the common requirements of consis- tency and diversity of augmentation across diverse scenarios. Evaluations across various datasets and tasks demonstrate the generality and efficiency of the proposed GOUDA over existing state-of-the-art GCLs.",
+      "tags": [
+        "Graph Contrastive Learning"
+      ],
+      "id": "paper::GOUDA.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Deep Graph Contrastive Representation Learning",
+      "file_name": "GRACE.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Graph representation learning nowadays becomes fundamental in analyzing graph- structured data. Inspired by recent success of contrastive methods, in this paper, we propose a novel framework for unsupervised graph representation learning by leveraging a contrastive objective at the node level. Speciﬁcally, we generate two graph views by corruption and learn node representations by maximizing the agreement of node representations in these two views. To provide diverse node contexts for the contrastive objective, we propose a hybrid scheme for generating graph views on both structure and attribute levels. Besides, we provide theoretical justiﬁcation behind our motivation from two perspectives, mutual information and the classical triplet loss. We perform empirical experiments on both transductive and inductive learning tasks using a variety of real-world datasets. Experimental ex- periments demonstrate that despite its simplicity, our proposed method consistently outperforms existing state-of-the-art methods by large margins. Moreover, our unsupervised method even surpasses its supervised counterparts on transductive tasks, demonstrating its great potential in real-world applications.",
+      "tags": [
+        "Graph Contrastive Learning",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::GRACE.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Graph Retrieval-Augmented Generation: A Survey",
+      "file_name": "Graph Retrieval-Augmented Generation A Survey.pdf",
+      "category": "GraphRAG",
+      "abstract": "ing with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. © 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM. ACM 1557-735X/2024/9-ART111 https://doi.org/XXXXXXX.XXXXXXX J. ACM, Vol. 37, No. 4, Article 111. Publication date: September 2024. arXiv:2408.08921v2 [cs.AI] 10 Sep 2024 111:2 Peng et al. ACM Reference Format: Boci Peng, Yun Zhu, Yongchao Liu, Xiaohe Bo, Haizhou Shi, Chuntao Hong, Yan Zhang, and Siliang Tang. 2024. Graph Retrieval-Augmented Generation: A Survey. J. ACM 37, 4, Article 111 (September 2024), 41 pages. https://doi.org/XXXXXXX.XXXXXXX",
+      "tags": [
+        "Graph Learning"
+      ],
+      "id": "paper::Graph Retrieval-Augmented Generation A Survey.pdf"
+    },
+    {
+      "node_type": "topic",
+      "name": "Graph Learning",
+      "id": "topic::Graph Learning"
+    },
+    {
+      "node_type": "paper",
+      "title": "GraphRAG-Bench: Challenging Domain-Specific Reasoning for Evaluating Graph Retrieval-Augmented Generation",
+      "file_name": "GraphRAG-Bench.pdf",
+      "category": "GraphRAG",
+      "abstract": "Graph Retrieval Augmented Generation (GraphRAG) has garnered increasing recognition for its potential to enhance large language models (LLMs) by struc- turally organizing domain-specific corpora and facilitating complex reasoning. However, current evaluations of GraphRAG models predominantly rely on tradi- tional question-answering datasets. Their limited scope in questions and evaluation metrics fails to comprehensively assess the reasoning capacity improvements enabled by GraphRAG models. To address this gap, we introduce GraphRAG- Bench, a large-scale, domain-specific benchmark designed to rigorously evaluate GraphRAG models. Our benchmark offers three key superiorities: (i) Challenging question design. Featuring college-level, domain-specific questions that demand multi-hop reasoning, the benchmark ensures that simple content retrieval is insuf- ficient for problem-solving. For example, some questions require mathematical reasoning or programming. (ii) Diverse task coverage. The dataset includes a broad spectrum of reasoning tasks, multiple-choice, true/false, multi-select, open- ended, and fill-in-the-blank. It spans 16 disciplines in twenty core textbooks. (iii) Holistic evaluation framework. GraphRAG-Bench provides comprehensive assessment across the entire GraphRAG pipeline, including graph construction, knowledge retrieval, and answer generation. Beyond final-answer correctness, it evaluates the logical coherence of the reasoning process. By applying nine con- temporary GraphRAG methods to GraphRAG-Bench, we demonstrate its utility in quantifying how graph-based structuring improves model reasoning capabil- ities. Our analysis reveals critical insights about graph architectures, retrieval efficacy, and reasoning capabilities, offering actionable guidance for the research community. All the related resources of GraphRAG-Bench are collected in : https://github.com/jeremycp3/GraphRAG-Bench.",
+      "tags": [
+        "GraphRAG"
+      ],
+      "id": "paper::GraphRAG-Bench.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Inductive Representation Learning on Large Graphs",
+      "file_name": "GraphSGAE.pdf",
+      "category": "Graph Representation Learning",
+      "abstract": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general inductive framework that leverages node feature information (e.g., text attributes) to efﬁciently generate node embeddings for previously unseen data. Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node’s local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classiﬁcation benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.",
+      "tags": [
+        "Graph Representation Learning"
+      ],
+      "id": "paper::GraphSGAE.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Knowledge Graph-Guided Retrieval Augmented Generation",
+      "file_name": "Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf",
+      "category": "GraphRAG",
+      "abstract": "Retrieval-augmented generation (RAG) has emerged as a promising technology for address- ing hallucination issues in the responses gen- erated by large language models (LLMs). Ex- isting studies on RAG primarily focus on ap- plying semantic-based approaches to retrieve isolated relevant chunks, which ignore their in- trinsic relationships. In this paper, we propose a novel Knowledge Graph-Guided Retrieval Augmented Generation (KG2RAG) framework that utilizes knowledge graphs (KGs) to pro- vide fact-level relationships between chunks, improving the diversity and coherence of the retrieved results. Specifically, after perform- ing a semantic-based retrieval to provide seed chunks, KG2RAG employs a KG-guided chunk expansion process and a KG-based chunk orga- nization process to deliver relevant and impor- tant knowledge in well-organized paragraphs. Extensive experiments conducted on the Hot- potQA dataset and its variants demonstrate the advantages of KG2RAG compared to existing RAG-based approaches, in terms of both re- sponse quality and retrieval quality.",
+      "tags": [
+        "Knowledge Graph"
+      ],
+      "id": "paper::Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "LINEARRAG LINEAR GRAPH RETRIEVAL AUG MENTEDGENERATION ONLARGE SCALECORPORA",
+      "file_name": "LinearRAG.pdf",
+      "category": "GraphRAG",
+      "abstract": "Retrieval-Augmented Generation (RAG) is widely used to mitigate hallucinations of Large Language Models (LLMs) by leveraging external knowledge. While effective for simple queries, traditional RAG systems struggle with large-scale, unstructured corpora where information is fragmented. Recent advances incor- porate knowledge graphs to capture relational structures, enabling more com- prehensive retrieval for complex, multi-hop reasoning tasks. However, existing graph-based RAG (GraphRAG) methods rely on unstable and costly relation ex- traction for graph construction, often producing noisy graphs with incorrect or inconsistent relations that degrade retrieval quality. In this paper, we revisit the pipeline of existing GraphRAG systems and propose Linear Graph-based Retrieval-Augmented Generation (LinearRAG), an efficient framework that en- ables reliable graph construction and precise passage retrieval. Specifically, Lin- earRAG constructs a relation-free hierarchical graph, termed Tri-Graph, using only lightweight entity extraction and semantic linking, avoiding unstable rela- tion modeling. This new paradigm of graph construction scales linearly with cor- pus size and incurs no extra token consumption, providing an economical and reliable indexing of the original passages. For retrieval, LinearRAG adopts a two-stage strategy: (i) relevant entity activation via local semantic bridging, fol- lowed by (ii) passage retrieval through global importance aggregation. Exten- sive experiments on four benchmark datasets demonstrate that LinearRAG sig- nificantly outperforms baseline models. Our code and datasets are available at https://github.com/DEEP-PolyU/LinearRAG.",
+      "tags": [
+        "GraphRAG",
+        "Knowledge Graph"
+      ],
+      "id": "paper::LinearRAG.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Retrieval-Augmented Generation with Graphs (GraphRAG)",
+      "file_name": "Retrieval-Augmented Generation with Graphs (GraphRAG).pdf",
+      "category": "GraphRAG",
+      "abstract": "Retrieval-augmented generation (RAG) is a powerful technique that enhances down- stream task execution by retrieving additional information, such as knowledge, skills, and tools from external sources. Graph, by its intrinsic \"nodes connected by edges\" nature, encodes massive heterogeneous and relational information, making it a golden resource for RAG in tremendous real-world applications. As a result, we have recently witnessed increasing attention on equipping RAG with Graph, i.e., GraphRAG. However, unlike conventional RAG, where the retriever, generator, and external data sources can be uniformly designed in the neural-embedding space, the uniqueness of graph-structured data, such as diverse-formatted and domain-specific relational knowledge, poses unique and significant challenges when designing GraphRAG for different domains. Given the broad applicability, the associated design challenges, and the recent surge in GraphRAG, a systematic and up-to-date survey of its key concepts and techniques is urgently desired. Following this mo- tivation, we present a comprehensive and up-to-date survey on GraphRAG. Our survey first proposes a holistic GraphRAG framework by defining its key compo- nents, including query processor, retriever, organizer, generator, and data source. Furthermore, recognizing that graphs in different domains exhibit distinct relational patterns and require dedicated designs, we review GraphRAG techniques uniquely tailored to each domain. Finally, we discuss research challenges and brainstorm directions to inspire cross-disciplinary opportunities. Our survey repository is publicly maintained at https://github.com/Graph-RAG/GraphRAG/.",
+      "tags": [
+        "GraphRAG"
+      ],
+      "id": "paper::Retrieval-Augmented Generation with Graphs (GraphRAG).pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "Exploitation of a Latent Mechanism in Graph Contrastive Learning: Representation Scattering",
+      "file_name": "SGRL.pdf",
+      "category": "Graph Contrastive Learning",
+      "abstract": "Graph Contrastive Learning (GCL) has emerged as a powerful approach for gener- ating graph representations without the need for manual annotation. Most advanced GCL methods fall into three main frameworks: node discrimination, group discrim- ination, and bootstrapping schemes, all of which achieve comparable performance. However, the underlying mechanisms and factors that contribute to their effec- tiveness are not yet fully understood. In this paper, we revisit these frameworks and reveal a common mechanism—representation scattering—that significantly enhances their performance. Our discovery highlights an essential feature of GCL and unifies these seemingly disparate methods under the concept of representation scattering. To leverage this insight, we introduce Scattering Graph Representation Learning (SGRL), a novel framework that incorporates a new representation scatter- ing mechanism designed to enhance representation diversity through a center-away strategy. Additionally, consider the interconnected nature of graphs, we develop a topology-based constraint mechanism that integrates graph structural properties with representation scattering to prevent excessive scattering. We extensively eval- uate SGRL across various downstream tasks on benchmark datasets, demonstrating its efficacy and superiority over existing GCL methods. Our findings underscore the significance of representation scattering in GCL and provide a structured frame- work for harnessing this mechanism to advance graph representation learning. The code of SGRL is at https://github.com/hedongxiao-tju/SGRL.",
+      "tags": [
+        "Graph Contrastive Learning",
+        "Graph Representation Learning"
+      ],
+      "id": "paper::SGRL.pdf"
+    },
+    {
+      "node_type": "paper",
+      "title": "WHEN TO USEGRAPHS INRAG: A COMPREHENSIVE ANALYSIS FORGRAPHRETRIEVALAUGMENTEDGEN ERATION",
+      "file_name": "When to use Graphs in RAG.pdf",
+      "category": "GraphRAG",
+      "abstract": "Graph retrieval-augmented generation (GraphRAG) has emerged as a powerful paradigm for enhancing large language models (LLMs) with external knowledge. It leverages graphs to model the hierarchical structure between specific concepts, enabling more coherent and effective knowledge retrieval for accurate reasoning. Despite its conceptual promise, recent studies report that GraphRAG frequently un- derperforms vanilla RAG on many real-world tasks. This raises a critical question: Is GraphRAG really effective, and in which scenarios do graph structures provide measurable benefits for RAG systems? To address this, we propose GraphRAG- Bench, a comprehensive benchmark designed to evaluate GraphRAG models on both hierarchical knowledge retrieval and deep contextual reasoning. GraphRAG- Bench features a comprehensive dataset with tasks of increasing difficulty, covering fact retrieval, complex reasoning, contextual summarize, and creative generation, and a systematic evaluation across the entire pipeline, from graph construction and knowledge retrieval to final generation. Leveraging this novel benchmark, we systematically investigate the conditions when GraphRAG surpasses traditional RAG and the underlying reasons for its success, offering guidelines for its practical application. All related resources and analysis are collected for the community at https://github.com/GraphRAG-Bench/GraphRAG-Benchmark.",
+      "tags": [
+        "GraphRAG"
+      ],
+      "id": "paper::When to use Graphs in RAG.pdf"
+    }
+  ],
+  "links": [
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "target": "topic::Graph Pretraining"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "target": "topic::GNN"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "target": "method::Graph Pretraining"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "target": "topic::Graph Prompting Learning"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "paper::01All in One Multi-task Prompting for Graph Neural Networks.pdf",
+      "target": "method::Graph Prompting"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Pretraining",
+      "target": "paper::02GCC.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Pretraining",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GNN",
+      "target": "paper::02GCC.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GNN",
+      "target": "paper::03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GNN",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Graph Pretraining",
+      "target": "paper::02GCC.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Graph Pretraining",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::02GCC.pdf",
+      "target": "topic::Graph Contrastive Learning"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "paper::02GCC.pdf",
+      "target": "method::Contrastive Learning"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::02GCC.pdf",
+      "target": "topic::Graph Self-Supervised Learning"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::02GCC.pdf",
+      "target": "topic::Graph Representation Learning"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::04Heterogeneous Graph Masked Autoencoders.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::Deep Graph Contrastivew Representation Learning(Grace.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::GCA.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::GOUDA.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::GRACE.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Contrastive Learning",
+      "target": "paper::SGRL.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::04Heterogeneous Graph Masked Autoencoders.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::Deep Graph Contrastivew Representation Learning(Grace.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::GCA.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::GOUDA.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::GRACE.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Contrastive Learning",
+      "target": "paper::SGRL.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Self-Supervised Learning",
+      "target": "paper::04Heterogeneous Graph Masked Autoencoders.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Self-Supervised Learning",
+      "target": "paper::BGRL_v2.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Self-Supervised Learning",
+      "target": "paper::FUG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Self-Supervised Learning",
+      "target": "paper::GCA.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::BGRL_v2.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::Deep Graph Contrastivew Representation Learning(Grace.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::Deep Graph Infomax(DGI.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::GCA.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::GCN.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::GRACE.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::GraphSGAE.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Graph Representation Learning",
+      "target": "paper::SGRL.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf",
+      "target": "topic::GCN"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GCN",
+      "target": "paper::Deep Graph Infomax(DGI.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::04Heterogeneous Graph Masked Autoencoders.pdf",
+      "target": "topic::Heterogeneous Graph"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::A Survey of Graph Retrieval-Augmented Generation.pdf",
+      "target": "topic::GraphRAG"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::A Survey of Graph Retrieval-Augmented Generation.pdf",
+      "target": "topic::Knowledge Graph"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "paper::A Survey of Graph Retrieval-Augmented Generation.pdf",
+      "target": "method::Knowledge-Graph Retrieval"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::Graph Retrieval-Augmented Generation A Survey.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::GraphRAG-Bench.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::LinearRAG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::Retrieval-Augmented Generation with Graphs (GraphRAG).pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::GraphRAG",
+      "target": "paper::When to use Graphs in RAG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Knowledge Graph",
+      "target": "paper::From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Knowledge Graph",
+      "target": "paper::GCN.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Knowledge Graph",
+      "target": "paper::Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "topic::Knowledge Graph",
+      "target": "paper::LinearRAG.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Knowledge-Graph Retrieval",
+      "target": "paper::From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Knowledge-Graph Retrieval",
+      "target": "paper::GCN.pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Knowledge-Graph Retrieval",
+      "target": "paper::Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf"
+    },
+    {
+      "edge_type": "paper-method",
+      "source": "method::Knowledge-Graph Retrieval",
+      "target": "paper::LinearRAG.pdf"
+    },
+    {
+      "edge_type": "paper-topic",
+      "source": "paper::Graph Retrieval-Augmented Generation A Survey.pdf",
+      "target": "topic::Graph Learning"
+    }
+  ]
+}

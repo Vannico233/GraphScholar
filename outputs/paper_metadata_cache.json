@@ -1,0 +1,785 @@
+{
+  "01All in One Multi-task Prompting for Graph Neural Networks.pdf:1745945371583152300:1304454": {
+    "paper_type": "application",
+    "tasks": [
+      "reasoning",
+      "classification"
+    ],
+    "applications": [
+      "social networks"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Reddit",
+      "Amazon",
+      "Movielens"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "02GCC.pdf:1748579085567218100:1075474": {
+    "paper_type": "application",
+    "tasks": [
+      "node classification",
+      "graph classification",
+      "classification"
+    ],
+    "applications": [
+      "chemistry",
+      "social networks",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Dblp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "03HOW POWERFUL ARE GRAPH NEURAL NETWORKS.pdf:1751713239265946400:853825": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "reasoning"
+    ],
+    "applications": [],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "04Heterogeneous Graph Masked Autoencoders.pdf:1761407590995013000:2866484": {
+    "paper_type": "survey",
+    "tasks": [
+      "clustering"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Arxiv",
+      "Dblp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "A Survey of Graph Retrieval-Augmented Generation.pdf:1775733768046441400:1544553": {
+    "paper_type": "survey",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Arxiv"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "BGRL_v2.pdf:1758681086660512400:5190986": {
+    "paper_type": "benchmark",
+    "tasks": [],
+    "applications": [
+      "code understanding"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "OGB",
+      "Arxiv",
+      "Amazon",
+      "Dblp",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Deep Graph Infomax(DGI.pdf:1758617010277104200:7405658": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "classification"
+    ],
+    "applications": [
+      "code understanding"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Reddit"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Frasca 等 - 2026 - NEURAL MESSAGE-PASSING ON ATTENTION GRAPHS FOR HALLUCINATION DETECTION.pdf:1777614897611157600:1156147": {
+    "paper_type": "benchmark",
+    "tasks": [],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "From Local to Global A Graph RAG Approach to Query-Focused Summarization.pdf:1775733490719653300:6893854": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "summarization",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "FUG.pdf:1759660140482195600:1364607": {
+    "paper_type": "application",
+    "tasks": [
+      "node classification",
+      "link prediction",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GCA.pdf:1769444386439352700:2048087": {
+    "paper_type": "application",
+    "tasks": [
+      "node classification",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Amazon",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GCN.pdf:1758879646649511300:1030017": {
+    "paper_type": "application",
+    "tasks": [
+      "node classification",
+      "clustering",
+      "classification"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GOUDA.pdf:1760714210344054000:1651730": {
+    "paper_type": "survey",
+    "tasks": [
+      "node classification",
+      "graph classification",
+      "clustering",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GRACE.pdf:1759064850976015900:743341": {
+    "paper_type": "benchmark",
+    "tasks": [],
+    "applications": [
+      "social networks",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Reddit",
+      "Dblp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Graph Retrieval-Augmented Generation A Survey.pdf:1775733567801593600:1725790": {
+    "paper_type": "survey",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "financial analysis",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Pubmed",
+      "Arxiv"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GraphRAG-Bench.pdf:1775733854453237500:918095": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Arxiv"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "GraphSGAE.pdf:1759032327503360300:894509": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "recommendation",
+      "clustering"
+    ],
+    "applications": [
+      "search"
+    ],
+    "datasets": [
+      "Reddit"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Guerra 等 - Self-Supervised Learning of Graph Representations for Network Intrusion Detection.pdf:1777614854625360800:1341882": {
+    "paper_type": "survey",
+    "tasks": [
+      "clustering",
+      "classification"
+    ],
+    "applications": [
+      "traffic forecasting",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "HGOT.pdf:1777614871932434300:3746424": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "node classification",
+      "retrieval",
+      "clustering",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Dblp",
+      "Yelp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Huang 等 - Coloring Learning for Heterophilic Graph Representation.pdf:1777614936498406100:921500": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "classification"
+    ],
+    "applications": [
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Knowledge Graph-Guided Retrieval Augmented Generation (KG²RAG).pdf:1775733953776034300:864092": {
+    "paper_type": "application",
+    "tasks": [
+      "question answering",
+      "retrieval"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "less is more.pdf:1777614919172366800:641269": {
+    "paper_type": "survey",
+    "tasks": [
+      "node classification",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Lin 等 - CaliGCL Calibrated Graph Contrastive Learning via Partitioned Similarity and Consistency Discrimina.pdf:1777614940157027500:7677680": {
+    "paper_type": "survey",
+    "tasks": [
+      "node classification",
+      "graph classification",
+      "classification"
+    ],
+    "applications": [
+      "molecular analysis",
+      "social networks",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Dblp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "LinearRAG.pdf:1775733888013309300:1453410": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Liu 等 - SSTAG Structure-Aware Self-Supervised Learning Method for Text-Attributed Graphs.pdf:1777614851286069600:534656": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "node classification",
+      "graph classification",
+      "link prediction",
+      "reasoning",
+      "classification"
+    ],
+    "applications": [
+      "search"
+    ],
+    "datasets": [
+      "Cora",
+      "Pubmed",
+      "OGB",
+      "Arxiv",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "PROPGCL.pdf:1777614894546094800:3489143": {
+    "paper_type": "survey",
+    "tasks": [
+      "node classification",
+      "graph classification",
+      "classification"
+    ],
+    "applications": [
+      "molecular analysis",
+      "social networks",
+      "code understanding"
+    ],
+    "datasets": [
+      "Reddit"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Retrieval-Augmented Generation with Graphs (GraphRAG).pdf:1775733742805907300:8896579": {
+    "paper_type": "survey",
+    "tasks": [
+      "link prediction",
+      "retrieval",
+      "reasoning",
+      "classification"
+    ],
+    "applications": [
+      "biomedical",
+      "drug discovery",
+      "molecular analysis",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Pubmed",
+      "Amazon"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "SGRL.pdf:1761016823096377600:959125": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "node classification",
+      "clustering",
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Wang 等 - Equivalence is All A Unified View for Self-supervised Graph Learning.pdf:1777614876933594600:835934": {
+    "paper_type": "benchmark",
+    "tasks": [],
+    "applications": [
+      "social networks",
+      "code understanding"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "When to use Graphs in RAG.pdf:1775733827560924900:31150461": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning",
+      "classification"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Zhang 等 - 2020 - SCE Scalable Network Embedding from Sparsest Cut.pdf:1777370844191376400:2379530": {
+    "paper_type": "application",
+    "tasks": [
+      "classification"
+    ],
+    "applications": [
+      "code understanding",
+      "document analysis"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Reddit"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Zhang 等 - 2024 - StructComp Substituting Propagation with Structural Compression in Training Graph Contrastive Learn.pdf:1777614838738557600:692838": {
+    "paper_type": "application",
+    "tasks": [
+      "classification"
+    ],
+    "applications": [
+      "code understanding"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "OGB",
+      "Arxiv",
+      "Amazon"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Zhang 等 - 2025 - Understanding and Mitigating Hyperbolic Dimensional Collapse in Graph Contrastive Learning.pdf:1777614886945457800:5879919": {
+    "paper_type": "application",
+    "tasks": [
+      "node classification",
+      "classification"
+    ],
+    "applications": [
+      "code understanding"
+    ],
+    "datasets": [
+      "Cora",
+      "Citeseer",
+      "Pubmed",
+      "Amazon",
+      "Yelp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "Zheng 等 - Negative Feedback Really Matters Signed Dual-Channel Graph Contrastive Learning Framework for Recom.pdf:1777614930830155500:3357711": {
+    "paper_type": "survey",
+    "tasks": [
+      "recommendation",
+      "retrieval"
+    ],
+    "applications": [
+      "recommender systems",
+      "code understanding",
+      "search"
+    ],
+    "datasets": [
+      "Amazon",
+      "Movielens",
+      "Yelp"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "d-rag.pdf:1777630976804053400:740765": {
+    "paper_type": "method",
+    "tasks": [
+      "Knowledge Graph Question Answering"
+    ],
+    "applications": [],
+    "datasets": [
+      "WebQSP",
+      "CWQ"
+    ],
+    "method_summary": "D-RAG jointly optimizes a retriever and generator for KGQA using differentiable subgraph sampling and prompting via Gumbel-Softmax reparameterization.",
+    "contribution_summary": "Enables end-to-end training of retriever and generator in retrieval-augmented generation for KGQA, reducing retrieval noise and improving performance.",
+    "confidence": "high"
+  },
+  "from rag to memory.pdf:1777630799557383300:2498688": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding"
+    ],
+    "datasets": [
+      "Arxiv",
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "grag.pdf:1777630929164164600:900835": {
+    "paper_type": "survey",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis"
+    ],
+    "datasets": [
+      "Arxiv"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "ket-rag.pdf:1777630814966891300:924828": {
+    "paper_type": "method",
+    "tasks": [
+      "question answering",
+      "retrieval"
+    ],
+    "applications": [
+      "biomedicine",
+      "law",
+      "political science"
+    ],
+    "datasets": [
+      "MuSiQue",
+      "HotpotQA",
+      "RAG-QA Arena"
+    ],
+    "method_summary": "KET-RAG employs a multi-granular indexing framework with a knowledge graph skeleton from key text chunks and a text-keyword bipartite graph to reduce indexing costs while maintaining retrieval quality.",
+    "contribution_summary": "Proposes KET-RAG, a cost-efficient framework that reduces indexing costs by over an order of magnitude compared to Microsoft's Graph-RAG while improving or maintaining retrieval and generation quality.",
+    "confidence": "high"
+  },
+  "medical graph rag.pdf:1777630955669138300:17479736": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "summarization",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "biomedical",
+      "code understanding",
+      "document analysis"
+    ],
+    "datasets": [
+      "Pubmed",
+      "Arxiv"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "remindrag.pdf:1777630981808209300:1754361": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "summarization",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "simple is effective.pdf:1777630784013734600:4376532": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding"
+    ],
+    "datasets": [],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  },
+  "think-on-graph 2.0.pdf:1777630765363837700:2301111": {
+    "paper_type": "benchmark",
+    "tasks": [
+      "question answering",
+      "retrieval",
+      "reasoning"
+    ],
+    "applications": [
+      "knowledge graphs",
+      "code understanding",
+      "document analysis",
+      "search"
+    ],
+    "datasets": [
+      "Wiki"
+    ],
+    "method_summary": "",
+    "contribution_summary": "",
+    "confidence": "medium"
+  }
+}
